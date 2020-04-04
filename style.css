@@ -1,0 +1,34 @@
+.grid-container {
+  columns: 4 288px;
+  column-gap: 24px 32px;
+  width: 80%;
+  margin: 0 auto;
+}
+.grid-container div {
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div:hover {
+  border-color: coral;
+}
+.grid-container div img {
+  width: 100%;
+  border-radius: 32px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: left;
+}
+
+.load-more-button {
+  margin: 0 auto;
+  width: 179px;
+  height: 48px;
+}
+
+/*# sourceMappingURL=style.css.map */
